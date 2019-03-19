@@ -1,0 +1,27 @@
+# Site settings
+title: Деньги с выигрышных слотов онлайн казино
+email: eastfest@eastfest.com
+description: Бешаные деньги со слотов онлайн казино, учимся зарабатывать в онлайн казино без напряга
+baseurl: "/eastfest.github.io"
+url: "http://eastfest.github.io"
+
+author:
+  name     : 'PokerMaster'
+  email    : PokerMaster@nandomoreira.me
+  url      : http://eastfest.github.io
+
+
+github: https:/eastfest.github.io
+disqus_shortname: "eastfest"
+
+paginate: 2
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
