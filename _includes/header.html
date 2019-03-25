@@ -18,7 +18,7 @@
         <ul class="nav">
             {% if page.title and page.title != 'Home' %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %}
+         
           {% endfor %}
           <li><a href="{{ site.baseurl }}">Главная</a></li>
           <li><a href="{{ site.author.url }}/about">О блоге</a></li>
